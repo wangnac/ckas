@@ -287,6 +287,11 @@ p {
   .warp {
     flex-wrap: wrap;
   }
+  .work ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+  }
 }
 @media (max-width: 414px) {
   .container {

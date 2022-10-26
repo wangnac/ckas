@@ -141,15 +141,15 @@ html {
 h2 {
   font-size: 32px;
   font-weight: bold;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-left: 10px;
   color: #c06014;
 }
 h3 {
   font-size: 20px;
   font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
   color: #424642;
 }
 
@@ -157,7 +157,13 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+a {
+  text-decoration: none;
+  color: #424642;
+}
+p {
+  text-align: center;
+}
 .container {
   margin: 0 auto;
   max-width: 1200px;
@@ -205,7 +211,7 @@ img {
   width: 25%;
   padding: 20px 0px;
   margin: 0 10px;
-  text-decoration: none;
+
   font-size: 20px;
   color: #c06014;
   text-align: center;
@@ -222,7 +228,7 @@ img {
   text-align: center;
 }
 .item {
-  margin: 50px 0px;
+  margin: 100px 0px;
 }
 .work p {
   padding: 5px 0;
@@ -239,6 +245,13 @@ img {
 .w600 li {
   width: 600px;
 }
+.bar {
+  display: flex;
+  justify-content: space-between;
+  border-left: #c06014 solid 10px;
+  margin-bottom: 40px;
+}
+
 .gotop a {
   width: 80px;
   background: #c06014;
@@ -248,7 +261,7 @@ img {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  text-decoration: none;
+
   color: white;
 }
 .footer {
@@ -270,6 +283,9 @@ img {
   .content .list a {
     width: 40%;
     margin: 5px;
+  }
+  .warp {
+    flex-wrap: wrap;
   }
 }
 @media (max-width: 414px) {

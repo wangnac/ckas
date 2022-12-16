@@ -174,27 +174,15 @@ p {
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   padding: 20px 10px;
+  align-items: center;
+}
+.nav h1 {
+  padding: 10px;
 }
 .nav .logo {
   height: 40px;
-}
-.nav ul {
-  display: flex;
-  align-items: center;
-}
-.nav ul a {
-  padding-left: 10px;
-  padding-right: 10px;
-  color: #424642;
-  text-decoration: none;
-  display: block;
-}
-.nav ul a:hover {
-  color: #424642;
-  padding-bottom: 10px;
-  border-bottom: 2px solid #c06014;
 }
 
 .content {
